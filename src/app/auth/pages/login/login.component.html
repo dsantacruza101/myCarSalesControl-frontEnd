@@ -1,0 +1,23 @@
+<div class="container">
+
+  <div class="title">PLEASE LOGIN</div>
+
+  <form class="form" [formGroup]="login" (ngSubmit)="handleSignUp()">
+    <mat-form-field class="full-width">
+      <mat-label>Email</mat-label>
+      <input matInput type="email" placeholder="insert an email" formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <mat-label>Password</mat-label>
+      <input matInput type="password" placeholder="Insert your password" formControlName="password">
+    </mat-form-field>
+
+    <button mat-raised-button color="#dd0031" type="submit"[disabled]="login.invalid">Sign in</button>
+
+
+  </form>
+
+  <div>Dont have an account?, <a mat-button routerLink="/auth/registro">SignUp</a></div>
+
+</div>

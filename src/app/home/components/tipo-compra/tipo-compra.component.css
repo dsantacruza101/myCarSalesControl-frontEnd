@@ -1,0 +1,17 @@
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://www.cartonionline.com/wordpress/wp-content/uploads/2023/02/goku.jpg');
+  background-size: cover;
+}
+
+
+/* .mat-mdc-raised-button:not(:disabled) {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  background-color: #dd0031;
+  color: #fff;
+  width: 100%;
+} */
